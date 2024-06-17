@@ -22,11 +22,7 @@ This project is a web application that allows users to view detailed stock data 
 - Fetches historical stock data and current stock price using yfinance.
 - Returns the stock name, current price, and historical data in JSON format.
 
-#### Code
-```python
-from flask import Flask, request, jsonify
-from flask_cors import CORS
-import yfinance as yf
+
 
 # Stock Data Viewer - React Frontend
 
@@ -83,9 +79,7 @@ This project is a React-based web application that allows users to view detailed
 
 Contributions are welcome! If you have any suggestions, improvements, or bug fixes, please submit a pull request.
 
-## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 
 
